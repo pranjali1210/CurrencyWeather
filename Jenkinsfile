@@ -12,12 +12,6 @@ pipeline {
             }
         }
         
-        stage('Test') {
-            steps {
-                // Run tests
-                sh 'npm install'
-            }
-        }
         
         stage('Deploy') {
             steps {
